@@ -4,77 +4,100 @@
 function isItLong(str) {
   if (str.length > 20) {
     return "That's a long string!"
-}
+  }
 }
 
 function isItMedium(str) {
-  
-  if(str.length === 10) {
+
+  if (str.length >= 10 && str.length <= 20) {
     return "That's a regular sized string!"
   }
 
+  // Same as below but formatted better!!
 
-  if(str.length >= 10 && str.length <=20) {
-    return "That's a regular sized string!"
-  }
-  
-  
-  if(str.length === 20) {
-    return "That's a regular sized string!"
-  } 
+  // if (str.length === 10) {
+  //   return "That's a regular sized string!"
+  // }
+
+
+  // if (str.length >= 10 && str.length <= 20) {
+  //   return "That's a regular sized string!"
+  // }
+
+
+  // if (str.length === 20) {
+  //   return "That's a regular sized string!"
+  // }
 
 }
 
 function isItShort(str) {
-    if(str.length < 10) {
-      return "That's a small string!"
-   }
-   
-   if(str.length > 10) {
-     return "That's not a small string!"
-    }
-      
-  
-  if(str.length === 10) {
-    return "That's not a small string!"
+  if (str.length < 10) {
+    return "That's a small string!"
+
   }
-  
+  else return "That's not a small string!"
 }
 
+// Same as below!
+
+//   }
+
+//   if (str.length > 10) {
+//     return "That's not a small string!"
+//   }
+
+
+//   if (str.length === 10) {
+//     return "That's not a small string!"
+//   }
+
+// }
+
 function howLongIsMyString(str) {
-  if(str.length > 20) {
+  if (str.length > 20) {
     return "That's a long string!"
-  }
-  
-  if(str.length === 20) {
+  } else if (str.length >= 10) {
     return "That's a regular sized string!"
-    
-  }
-  
-  if(str.length >= 10 && str.length <= 20 ) {
-    return "That's a regular sized string!"
-  }
-  
-  if(str.length < 10) {
+  } else {
     return "That's a small string!"
   }
 }
-  
+//  Same as below!!!
+
+// if (str.length > 20) {
+//   return "That's a long string!"
+// }
+
+// if str.length === 20) {
+//  ƒ return "That's a small string!"
+//   return "That's a regular sized string!"
+
+// }
+
+// if (str.length >= 10 && str.length <= 20) {
+//   return "That's a regular sized string!"
+// }
+
+// if (str.length < 10) {
+// }
+
+
+
+
 function instructorHeight(name) {
-  if(name = 'Colin') {
-    return 62
-  } 
-  if(name = 'Mesuara') {
-    return 69
-  }
-  
+  if (name === 'Colin') {
+    return 62;
+  } else if (name === 'Mesuara') {
+    return 69;
+  } else return "I don't know that instructor!"
 
 }
-  
 
 
-  
-  
+
+
+
 
 
 
